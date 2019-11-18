@@ -1,0 +1,22 @@
+{
+  "name": "graphql-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.9.8",
+    "graphql": "^14.5.8",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "babel-install": "2.1.0",
+    "eslint": "^6.6.0"
+  }
+}

@@ -1,0 +1,22 @@
+exports.Schema = `
+    type Query {
+        books: [Book],
+        soccerTeam: [Team]
+    }
+
+    type Book {
+        title: String
+        author: String
+    }
+
+    type Team {
+        name: String,
+        coach: String,
+        location: Location
+    }
+
+    type Location {
+        city: String,
+        country: String,
+    }
+`;
